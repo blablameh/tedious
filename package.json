@@ -71,7 +71,6 @@
     "sinon": "^1.17.5"
   },
   "scripts": {
-    "preinstall": "npm list windows-build-tools -g || npm install --global --production windows-build-tools",
     "lint": "eslint src test && flow",
     "test": "nodeunit --reporter minimal test/setup.js test/unit/ test/unit/token/ test/unit/tracking-buffer",
     "test-integration": "nodeunit --reporter minimal test/setup.js test/integration/",
